@@ -1,4 +1,5 @@
 <resources>
+    //titulos
     <string name="app_name">NoPosto</string>
     <string name="app_title">Bem Vindo ao NoPosto!</string>
     <string name="app_subtitle">Vamos começar?</string>
@@ -6,9 +7,19 @@
     <string name="Alcool">Alcool - KM/L (ex: 7.91)</string>
     <string name="Gasolina">Gasolina - KM/L (ex: 8.91)</string>
     <string name="tuturial">Como medir a autonomia ?</string>
+    <string name="tuturialP1">Para medir a autonomia de seu veiculo é bem simples! Basta seguir alguns passos simples.
+    Primeiro de tudo Abasteça seu veiculo ( ( tanque cheio isso é importante! ) e seu veiculo for flex dê preferencia para apenas um tipo de combustivel por vez,
+    para não afetar a medição ), com o veiculo abastecido zere a quilometragem do seu veiculo ( geralmente existe um botão no painel
+    para efetivar essa ação, caso não seja possivel, anote a quilometragem atual assim que abastecer ), em seguida rode o maximo
+    que puder ( lembre-se de efetivar o teste em um unico territorio ( na cidade ou na rodovia ) isso porque o redimento nesses territorios é
+    diferente, geralmente sendo o rendimento na rodovia maior ), quando chegar a hora reabastecer encha o tanque novamente e olhe na bomba
+    a quantidade de litros que foi nescessario. E agora basta dividir pela quilometragem rodada (Ex: Rodei 430KM e o tanque cheio leva 32L
+    430 dividido por 32 é igual a 13,43KM/l ) lembrando que essa media varia a depender do territorio onde o teste foi efetivado, tipo de combustível
+    , do veiculo do teste e do propio comportamento do condutor.</string>
 
     //butões
     <string name="Proximo">Proximo</string>
+    <string name="Voltar">Voltar</string>
     <string name="Calcular">Calcular</string>
 
     //produzido por:

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">NoPosto</string>
+    <string name="app_title">Bem Vindo ao NoPosto!</string>
+    <string name="app_subtitle">Vamos começar?</string>
+    <string name="primeiros_dados">Qual a Autonomia do Seu veiculo em:</string>
+    <string name="Alcool">Alcool - KM/L (ex: 7.91)</string>
+    <string name="Gasolina">Gasolina - KM/L (ex: 8.91)</string>
+    <string name="tuturial">Como medir a autonomia ?</string>
+
+    //butões
+    <string name="Proximo">Proximo</string>
+    <string name="Calcular">Calcular</string>
+
+    //produzido por:
+    <string name="producted">Desenvolvido pela Digitaê Soluções Digitais</string>
+</resources>

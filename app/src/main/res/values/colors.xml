@@ -4,4 +4,6 @@
     <color name="colorPrimaryDark">#BB2700</color>
     <color name="colorAccent">#D81B60</color>
     <color name="blackColor">#000</color>
+    <color name="resultado">#00cc55</color>
+    <color name="historico">#F4B516</color>
 </resources>

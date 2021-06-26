@@ -4,8 +4,8 @@
     <string name="app_title">Bem Vindo ao NoPosto!</string>
     <string name="app_subtitle">Vamos começar?</string>
     <string name="primeiros_dados">Qual a Autonomia do Seu veiculo em:</string>
-    <string name="Alcool">Alcool - KM/L (ex: 7.91)</string>
-    <string name="Gasolina">Gasolina - KM/L (ex: 8.91)</string>
+    <string name="Alcool_KM">Alcool - KM/L (ex: 7.91)</string>
+    <string name="Gasolina_KM">Gasolina - KM/L (ex: 8.91)</string>
     <string name="tuturial">Como medir a autonomia ?</string>
     <string name="tuturialP1">Para medir a autonomia de seu veiculo é bem simples! Basta seguir alguns passos simples.
     Primeiro de tudo Abasteça seu veiculo ( ( tanque cheio isso é importante! ) e seu veiculo for flex dê preferencia para apenas um tipo de combustivel por vez,
@@ -16,11 +16,18 @@
     a quantidade de litros que foi nescessario. E agora basta dividir pela quilometragem rodada (Ex: Rodei 430KM e o tanque cheio leva 32L
     430 dividido por 32 é igual a 13,43KM/l ) lembrando que essa media varia a depender do territorio onde o teste foi efetivado, tipo de combustível
     , do veiculo do teste e do propio comportamento do condutor.</string>
+    <string name="segundos_dados">Qual os valores dos combustíveis ?</string>
+    <string name="alcool">Alcool</string>
+    <string name="Gasolina">Gasolina</string>
+    <string name="Resultado">Pelos calculos é melhor abastecer com:</string>
+    <string name="resultadoTxt">Esse combustível terá uma autonomia media de:</string>
 
     //butões
     <string name="Proximo">Proximo</string>
     <string name="Voltar">Voltar</string>
     <string name="Calcular">Calcular</string>
+    <string name="inicio">Inicio</string>
+    <string name="Historico">Histórico</string>
 
     //produzido por:
     <string name="producted">Desenvolvido pela Digitaê Soluções Digitais</string>

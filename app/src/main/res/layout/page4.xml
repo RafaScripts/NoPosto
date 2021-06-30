@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/roboto_bold"
         android:text="@string/Historico"
-        android:textColor="@color/blackColor"
+        android:textColor="@color/corTexto"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

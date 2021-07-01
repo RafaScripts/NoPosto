@@ -40,6 +40,7 @@
         android:layout_height="wrap_content"
         android:background="@color/colorPrimary"
         android:fontFamily="@font/roboto_bold"
+        android:onClick="irParaInicio"
         android:text="@string/Voltar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

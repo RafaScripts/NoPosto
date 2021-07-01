@@ -102,6 +102,7 @@
         android:layout_height="wrap_content"
         android:background="@android:color/holo_orange_dark"
         android:fontFamily="@font/roboto_bold"
+        android:onClick="calcular"
         android:text="@string/Calcular"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

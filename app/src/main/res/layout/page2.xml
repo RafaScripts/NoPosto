@@ -6,6 +6,37 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <EditText
+        android:id="@+id/valorAbastecimento"
+        android:layout_width="253dp"
+        android:layout_height="37dp"
+        android:ems="10"
+        android:fontFamily="@font/roboto_light"
+        android:hint="Qual o valor do abastecimento?"
+        android:inputType="numberDecimal"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.221"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.738" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_bold"
+        android:textColor="@color/corTexto"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.216"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.648"
+        tools:text="Qual o valor do Abastecimento?" />
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="108dp"
@@ -34,13 +65,13 @@
         app:layout_constraintVertical_bias="0.371" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/valorAlcool"
         android:layout_width="253dp"
         android:layout_height="37dp"
         android:ems="10"
         android:fontFamily="@font/roboto_light"
-        android:inputType="textPersonName"
-        android:text="@string/alcool"
+        android:hint="Álcool"
+        android:inputType="numberDecimal"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -50,13 +81,13 @@
         app:layout_constraintVertical_bias="0.439" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/valorGasolina"
         android:layout_width="253dp"
         android:layout_height="37dp"
         android:ems="10"
         android:fontFamily="@font/roboto_light"
-        android:inputType="textPersonName"
-        android:text="@string/Gasolina"
+        android:hint="Gasolina"
+        android:inputType="numberDecimal"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -74,8 +105,8 @@
         android:text="@string/Calcular"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.108"
+        app:layout_constraintHorizontal_bias="0.851"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.627" />
+        app:layout_constraintVertical_bias="0.933" />
 </androidx.constraintlayout.widget.ConstraintLayout>

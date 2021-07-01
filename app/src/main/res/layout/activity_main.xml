@@ -53,7 +53,7 @@
         app:layout_constraintVertical_bias="0.435" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/autonomiaAlcool"
         android:layout_width="279dp"
         android:layout_height="37dp"
         android:ems="10"
@@ -68,7 +68,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/autonomiaGasolina"
         android:layout_width="279dp"
         android:layout_height="38dp"
         android:ems="10"

@@ -45,15 +45,8 @@ public class MainActivity extends AppCompatActivity {
 
     }
     public void calcular(View view) {
-        irParaTela3();
-        calculara();
-        resultado1 = (vAbastecimento / vAlcool) * aAlcool;
-        resultado2 = (vAbastecimento / vGasolina) * aGasolina;
-        if (resultado1 > resultado2) {
-            textResult = "Alcool";
-        } else {
-            textResult = "Gasolina";
-        }
+        irParaTela3(); calculara(); calcular1();
+
     }
 
     public void calculara(){
@@ -66,5 +59,17 @@ public class MainActivity extends AppCompatActivity {
             textAutonomia = String.valueOf(ra2);
         }
     }
+    public void calcular1(){
+        resultado1 = (vAbastecimento / vAlcool) * aAlcool;
+        resultado2 = (vAbastecimento / vGasolina) * aGasolina;
+        if (resultado1 > resultado2) {
+            textResult = "Alcool";
+        } else {
+            textResult = "Gasolina";
+        }
+
+    }
+
+
 }
 

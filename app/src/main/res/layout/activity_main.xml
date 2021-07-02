@@ -58,8 +58,8 @@
         android:layout_height="37dp"
         android:ems="10"
         android:fontFamily="@font/roboto_light"
-        android:inputType="textPersonName"
-        android:text="@string/Alcool_KM"
+        android:hint="@string/Alcool_KM"
+        android:inputType="numberDecimal"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -73,8 +73,8 @@
         android:layout_height="38dp"
         android:ems="10"
         android:fontFamily="@font/roboto_light"
-        android:inputType="textPersonName"
-        android:text="@string/Gasolina_KM"
+        android:hint="@string/Gasolina_KM"
+        android:inputType="numberDecimal"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -98,7 +98,7 @@
         app:layout_constraintVertical_bias="0.738" />
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/textTuto"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="irParaTutorial"

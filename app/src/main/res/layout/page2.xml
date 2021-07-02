@@ -12,7 +12,7 @@
         android:layout_height="37dp"
         android:ems="10"
         android:fontFamily="@font/roboto_light"
-        android:hint="Qual o valor do abastecimento?"
+        android:hint='"Qual o valor do abastecimento?'
         android:inputType="numberDecimal"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"

@@ -1,75 +1,76 @@
 package com.rafascripts.noposto;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
-
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.EditText;
+
 
 public class MainActivity extends AppCompatActivity {
-    public double aAlcool,aGasolina,vAlcool, vGasolina, vAbastecimento;
-    public double resultado1, resultado2, ra1, ra2;
-    public String textAutonomia, textResult;
+
+    protected EditText autonomiaAlcool, autonomiaGasolina;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        setContentView(R.layout.page2);
-        setContentView(R.layout.page3);
-        setContentView(R.layout.tuturial_p1);
 
+        autonomiaAlcool = findViewById(R.id.autonomiaAlcool);
+        autonomiaGasolina = findViewById(R.id.autonomiaGasolina);
 
-        aAlcool = Double.parseDouble(findViewById(R.id.autonomiaAlcool).toString());
-        aGasolina = Double.parseDouble(findViewById(R.id.autonomiaGasolina).toString());
-        vAlcool = Double.parseDouble(findViewById(R.id.valorAlcool).toString());
-        vGasolina = Double.parseDouble(findViewById(R.id.valorGasolina).toString());
-        vAbastecimento = Double.parseDouble(findViewById(R.id.valorAbastecimento).toString());
-        textAutonomia = findViewById(R.id.textAutonomia).toString();
-        textResult = findViewById(R.id.textResult).toString();
     }
+
+    public void irParaTela2(View view) {
+
+        //Pegando os Campos Digitados
+        String autoAlcool = autonomiaAlcool.getText().toString();
+        String autoGasolina = autonomiaGasolina.getText().toString();
+
+        //Abrindo validação ou tela2
+       Boolean camposValidados = validarCampos1(autoAlcool, autoGasolina);
+       if (camposValidados){
+           Intent intent1 = new Intent(getApplicationContext(), Page2.class);
+           intent1.putExtra("aAlcool", autoAlcool);
+           intent1.putExtra("aGasolina", autoGasolina);
+           startActivity(intent1);
+
+
+       }else{
+           AlertDialog.Builder dialog = new AlertDialog.Builder(this);
+           dialog.setTitle("Preencha os Campos");
+           dialog.setMessage("Preencha os campos corretamente!");
+            dialog.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialog, int which) {
+                }
+            });
+            dialog.create();
+            dialog.show();
+       }
+    }
+
+        //Validando Campos
+    public Boolean validarCampos1(String aAlcool, String aGasolina){
+        boolean camposValidados = true;
+        if (aAlcool == null || aAlcool.equals("")){
+            camposValidados = false;
+        }else if (aGasolina == null || aGasolina.equals("")){
+            camposValidados = false;
+        }
+
+        return camposValidados;
+
+    }
+
+
 
     public void irParaTutorial(View view){
-        Intent intent2 = new Intent(getApplicationContext(),Tutorial.class);
-        startActivity(intent2);
-
+        Intent intent6 = new Intent(getApplication(), Tutorial.class);
+        startActivity(intent6);
     }
-    public void irParaTela2(View view){
-        Intent intent1 = new Intent(getApplicationContext(),Page2.class);
-        startActivity(intent1);
-
-    }
-    public void irParaTela3() {
-        Intent intent4 = new Intent(getApplication(), Page3.class);
-        startActivity(intent4);
-
-    }
-    public void calcular(View view) {
-        irParaTela3(); calculara(); calcular1();
-
-    }
-
-    public void calculara(){
-        ra1 = (vAbastecimento / vAlcool) * aAlcool;
-        ra2 = (vAbastecimento / vGasolina) * aGasolina;
-
-        if(ra1 > ra2){
-            textAutonomia = String.valueOf(ra1);
-        }else{
-            textAutonomia = String.valueOf(ra2);
-        }
-    }
-    public void calcular1(){
-        resultado1 = (vAbastecimento / vAlcool) * aAlcool;
-        resultado2 = (vAbastecimento / vGasolina) * aGasolina;
-        if (resultado1 > resultado2) {
-            textResult = "Alcool";
-        } else {
-            textResult = "Gasolina";
-        }
-
-    }
-
 
 }
 

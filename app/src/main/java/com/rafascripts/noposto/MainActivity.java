@@ -7,11 +7,13 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.TextView;
 
 
 public class MainActivity extends AppCompatActivity {
 
     protected EditText autonomiaAlcool, autonomiaGasolina;
+    protected TextView textTuto;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,7 +22,12 @@ public class MainActivity extends AppCompatActivity {
 
         autonomiaAlcool = findViewById(R.id.autonomiaAlcool);
         autonomiaGasolina = findViewById(R.id.autonomiaGasolina);
+        textTuto = findViewById(R.id.textTuto);
 
+    }
+    public void irParaTutorial(View t1){
+        Intent intent6 = new Intent(getApplicationContext(), Tutorial.class);
+        startActivity(intent6);
     }
 
     public void irParaTela2(View view) {
@@ -65,12 +72,6 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-
-
-    public void irParaTutorial(View view){
-        Intent intent6 = new Intent(getApplication(), Tutorial.class);
-        startActivity(intent6);
-    }
 
 }
 

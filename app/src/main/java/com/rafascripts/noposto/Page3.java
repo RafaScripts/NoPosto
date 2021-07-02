@@ -11,7 +11,6 @@ import android.widget.TextView;
 public class Page3 extends AppCompatActivity {
 
     Button buttonInicio;
-    TextView textResult, textAutonomia;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

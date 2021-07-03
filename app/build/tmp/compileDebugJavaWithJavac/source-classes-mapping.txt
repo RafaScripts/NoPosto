@@ -1,0 +1,13 @@
+com/rafascripts/noposto/Page3.java
+ com.rafascripts.noposto.Page3
+ com.rafascripts.noposto.Page3$1
+com/rafascripts/noposto/MainActivity.java
+ com.rafascripts.noposto.MainActivity
+ com.rafascripts.noposto.MainActivity$1
+com/rafascripts/noposto/Tutorial.java
+ com.rafascripts.noposto.Tutorial
+com/rafascripts/noposto/Page2.java
+ com.rafascripts.noposto.Page2
+ com.rafascripts.noposto.Page2$1
+com/rafascripts/noposto/BuildConfig.java
+ com.rafascripts.noposto.BuildConfig

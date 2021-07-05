@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "243856949891",
+    "project_id": "no-posto",
+    "storage_bucket": "no-posto.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:243856949891:android:f5cf29b42c7edbfeca51b6",
+        "android_client_info": {
+          "package_name": "com.RafaScripts.NoPosto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "243856949891-nlrjmtl3b9912i21o1tlthmvgsp0tnen.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.RafaScripts.NoPosto",
+            "certificate_hash": "68dd6369f3d167918fcb478339025e410e7e3fff"
+          }
+        },
+        {
+          "client_id": "243856949891-6ktt85tbp9vq6127ibvj61i9bmj4p703.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDen-lvw7f6uU0BgfIXNjU09ETnKq-yrjM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "243856949891-6ktt85tbp9vq6127ibvj61i9bmj4p703.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

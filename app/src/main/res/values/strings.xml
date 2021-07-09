@@ -21,6 +21,7 @@
     <string name="Gasolina">Gasolina</string>
     <string name="Resultado">Pelos calculos é melhor abastecer com:</string>
     <string name="resultadoTxt">Esse combustível terá uma autonomia media de:</string>
+    <string name="ValorAB">Qual o valor do Abastecimento?</string>
 
     //butões
     <string name="Proximo">Proximo</string>
@@ -31,4 +32,5 @@
 
     //produzido por:
     <string name="producted">Desenvolvido pela Digitaê Soluções Digitais</string>
+    <string name="Dev">Desenvolvido por RafaScripts</string>
 </resources>

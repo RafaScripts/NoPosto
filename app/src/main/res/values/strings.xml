@@ -32,5 +32,7 @@
 
     //produzido por:
     <string name="producted">Desenvolvido pela Digitaê Soluções Digitais</string>
-    <string name="Dev">Desenvolvido por RafaScripts</string>
+    <string name="Dev">Desenvolvido por RafaScripts em Conjunto com Digitaê Soluções Digitais</string>
+
+    <string name="default_notification_channel_id">default</string>
 </resources>

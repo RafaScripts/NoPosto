@@ -25,12 +25,25 @@
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
 
-
+        <!--- Implementação do Admob / App-ID : ca-app-pub-6827368962849486~7726788809 -->
         <!--- Implementação do Admob / App-ID Sample : ca-app-pub-3940256099942544~3347511713 -->
 
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-3940256099942544~3347511713"/>
+            android:value="ca-app-pub-6827368962849486~7726788809"/>
+
+        <service
+            android:name="com.rafascripts.noposto.MyFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_id"
+            android:value="@string/default_notification_channel_id" />
+
     </application>
 
 </manifest>
